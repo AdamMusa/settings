@@ -113,6 +113,6 @@ class _BluetoothDeviceRowState extends State<BluetoothDeviceRow> {
                   ),
                 ),
               );
-            }));
+            })).then((value) => setState(() {}));
   }
 }
